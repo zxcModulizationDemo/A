@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "A"
-  s.version      = "2"
+  s.version      = "3"
   s.summary      = "A."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "A/A/**/*.{h,m,swift}"
+  s.source_files  = "A/A/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -136,7 +136,7 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-  s.dependency "B_Category"
+  s.dependency "B_Category", '~> 1'
   s.dependency "HandyFrame"
 
 end
